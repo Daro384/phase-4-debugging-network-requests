@@ -1,3 +1,6 @@
+p "seeding"
+Movie.destroy_all
+
 Movie.create([
   {
     title: "The Color Purple",
